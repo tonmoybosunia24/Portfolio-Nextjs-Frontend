@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Next.js 14",
+    "content": "Next.js 14 introduces several groundbreaking features that make building web applications faster and more efficient. The App Router provides a new way to handle routing with improved performance and flexibility. Server Components allow you to render components on the server, reducing the JavaScript bundle size sent to the client. This results in faster page loads and better user experience. Streaming and Suspense support make it easier to handle loading states and improve perceived performance. The built-in image optimization automatically serves images in modern formats like WebP and AVIF, reducing bandwidth usage. TypeScript support is first-class, providing excellent developer experience with type safety and autocomplete. The framework also includes built-in CSS support, allowing you to use CSS Modules, Sass, or Tailwind CSS out of the box.",
+    "author": {
+      "name": "Tonmoy Bosunia",
+      "avatar": "https://i.ibb.co.com/7xwmkFWg/Testimonail-1.jpg",
+      "bio": "Let's bring your ideas to life! Each project showcases my approach and dedication to inspiring the world, one project at a time"
+    },
+    "category": "Web Development",
+    "tags": ["Next.js", "React", "JavaScript", "Web Development"],
+    "thumbnail": "https://i.ibb.co.com/twff3pZ5/blog-img-1.jpg",
+    "publishDate": "2024-10-01",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "title": "Mastering Tailwind CSS",
+    "content": "Tailwind CSS has revolutionized how we write CSS by providing a utility-first approach that speeds up development significantly. Instead of writing custom CSS classes, you compose utilities directly in your HTML. This approach eliminates the need for naming conventions and reduces CSS file sizes. The framework comes with a comprehensive design system including colors, spacing, typography, and more. Customization is straightforward through the tailwind.config.js file where you can extend or override default values. The JIT (Just-In-Time) compiler generates styles on-demand, resulting in smaller CSS bundles. Responsive design is simplified with mobile-first breakpoint prefixes. Dark mode support is built-in and easy to implement. The framework also supports custom plugins and includes official plugins for forms, typography, and aspect ratio. Performance is excellent as unused styles are automatically purged in production builds.",
+    "author": {
+      "name": "Tonmoy Bosunia",
+      "avatar": "https://i.ibb.co.com/BKF340GX/Testimonail-2.jpg",
+      "bio": "Let's bring your ideas to life! Each project showcases my approach and dedication to inspiring the world, one project at a time"
+    },
+    "category": "CSS",
+    "tags": ["Tailwind CSS", "CSS", "UI/UX", "Frontend"],
+    "thumbnail": "https://i.ibb.co.com/ZRk8vNyc/blog-img-2.jpg",
+    "publishDate": "2024-09-28",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 3,
+    "title": "Building RESTful APIs with Node.js",
+    "content": "Node.js has become the go-to platform for building backend services and APIs due to its non-blocking I/O model and vast ecosystem. Express.js simplifies API development with its minimalist framework that provides robust routing, middleware support, and extensive plugin ecosystem. Building RESTful APIs requires understanding HTTP methods (GET, POST, PUT, DELETE) and proper status codes. Authentication and authorization are crucial for securing your APIs, commonly implemented using JWT tokens or OAuth. Input validation prevents malicious data from entering your system, libraries like Joi or express-validator help with this. Error handling middleware catches and processes errors consistently across your application. Database integration with MongoDB, PostgreSQL, or MySQL stores and retrieves data efficiently. Rate limiting protects your API from abuse and DDoS attacks. Proper logging and monitoring help track API usage and debug issues. Documentation using tools like Swagger makes your API easier to understand and use.",
+    "author": {
+      "name": "Tonmoy Bosunia",
+      "avatar": "https://i.ibb.co.com/VpkQzSdZ/Testimonail-3.jpg",
+      "bio": "Let's bring your ideas to life! Each project showcases my approach and dedication to inspiring the world, one project at a time"
+    },
+    "category": "Backend",
+    "tags": ["Node.js", "Express", "API", "Backend"],
+    "thumbnail": "https://i.ibb.co.com/Skm4xTP/blog-img-3.jpg",
+    "publishDate": "2024-09-20",
+    "readTime": "10 min read"
+  },
+  {
+    "id": 4,
+    "title": "React Hooks: A Complete Guide",
+    "content": "React Hooks transformed functional components by allowing them to use state and lifecycle features previously only available in class components. useState manages local component state with a simple API that returns current state and an updater function. useEffect handles side effects like data fetching, subscriptions, and DOM manipulation, replacing componentDidMount, componentDidUpdate, and componentDidUnmount. useContext consumes context values without wrapper components, simplifying context usage. useReducer manages complex state logic similar to Redux but at component level. useMemo and useCallback optimize performance by memoizing values and functions. Custom hooks enable code reuse by extracting component logic into reusable functions. Rules of Hooks ensure consistent behavior: only call hooks at the top level and only from React functions. The hooks API is more composable than lifecycle methods and works better with modern JavaScript features. Understanding dependency arrays is crucial for preventing infinite loops and ensuring effects run at the right time.",
+    "author": {
+      "name": "Tonmoy Bosunia",
+      "avatar": "https://i.ibb.co.com/7xwmkFWg/Testimonail-1.jpg",
+      "bio": "Let's bring your ideas to life! Each project showcases my approach and dedication to inspiring the world, one project at a time"
+    },
+    "category": "React",
+    "tags": ["React", "Hooks", "JavaScript", "Frontend"],
+    "thumbnail": "https://i.ibb.co.com/blog4.jpg",
+    "publishDate": "2024-09-15",
+    "readTime": "8 min read"
+  }
+]

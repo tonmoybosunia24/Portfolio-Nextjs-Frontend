@@ -20,6 +20,12 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Environment Setup
+
+1. Create `.env.local` file in root directory
+2. Copy content from `.env.example`
+3. Add your Firebase credentials
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
