@@ -1,11 +1,18 @@
-"use client";
+import Navbar from "@/components/Common/Navbar";
+
 /* ------------------Home Page Component--------------- */
 export default function Home() {
   return (
     /* ------------------Main Container---------------- */
-    <main className="h-screen flex flex-col justify-center items-center section-container space-y-5 text-center">
-      {/* -------------------Hero Title--------------- */}
-      <h1 className="font-bold text-6xl text-center">Hi, I'm Tonmoy Bosunia</h1>
+    <main>
+      <Navbar></Navbar>
     </main>
   );
 }
+
+export const metadata = {
+  title: "Tonmoy Bosunia - Frontend Developer",
+  description:
+    "Portfolio of Tonmoy Bosunia - Expert in React, Next.js, and modern web development",
+  keywords: ["Frontend Developer", "React", "Next.js", "Portfolio"],
+};
