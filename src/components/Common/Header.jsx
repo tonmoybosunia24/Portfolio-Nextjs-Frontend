@@ -9,7 +9,7 @@ import AnimatedHeading from '../Ui/AnimatedHeading';
 const Header = () => {
   return (
     /* -------------------Header Section------------------ */
-    <header className='w-full max-h-screen flex flex-col gap-16 lg:gap-5 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bannerBackground.src})` }}>
+    <header className='w-full max-h-screen flex flex-col gap-14 lg:gap-5 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bannerBackground.src})` }}>
 
       <div><Navbar></Navbar></div>
 

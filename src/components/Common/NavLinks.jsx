@@ -25,7 +25,7 @@ const NavLinks = ({ layoutStyle = 'lg' }) => {
     <div className={`${layoutStyles[layoutStyle]}`}>
       {/* ------------------Map Through Navigation Links--------------- */}
       {navLinks.map((link) => (
-        <div className="first:border-t border-b border-bg-light lg:border-0 py-2">
+        <div className="text-lg first:border-t border-b border-bg-light lg:border-0 py-2">
           <Link key={link?.id} href={link.path} className={`${pathName === link.path ? 'font-bold text-pink-primary' : 'font-semibold text-gray-light lg:text-white'} hover:text-red-primary`}>{link?.name}</Link>
         </div>
       ))}
