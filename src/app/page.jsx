@@ -1,11 +1,11 @@
-import Navbar from "@/components/Common/Navbar";
+import Header from "@/components/Common/Header";
 
 /* ------------------Home Page Component--------------- */
 export default function Home() {
   return (
     /* ------------------Main Container---------------- */
     <main>
-      <Navbar></Navbar>
+      <Header></Header>
     </main>
   );
 }

@@ -6,7 +6,7 @@ import Logo from "../Ui/Logo";
 const Navbar = () => {
   /* ---------------------Navber Section--------------------- */
   return (
-    <nav className="flex justify-between items-center">
+    <nav className="section flex justify-between items-center pt-2">
       {/* --------------------Logo Section------------------ */}
       <div>
         <Logo></Logo>

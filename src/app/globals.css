@@ -9,8 +9,8 @@
 /* ---------Custom Utility Classes--------- */
 @layer utilities {
   /* -----------Responsive Container Padding----------- */
-  .section-container {
-    @apply px-5 md:px-10 lg:px-10 lg:max-w-screen-2xl mx-auto;
+  .section {
+    @apply px-5 md:px-10 lg:px-20 lg:max-w-screen-2xl mx-auto;
   }
   /* ----------------Font Utilities-------------------- */
   .font-rajdhani {
@@ -62,4 +62,8 @@ body {
   background: var(--color-black-light);
   color: var(--color-white);
   font-family: var(--font-rajdhani), Arial, Helvetica, sans-serif;
+}
+
+.text-stroke {
+       -webkit-text-stroke: 1px white;
 }
