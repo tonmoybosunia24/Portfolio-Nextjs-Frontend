@@ -1,7 +1,7 @@
 const SectionHeading = ({ subtitle, title, description }) => {
   return (
     /* ---------------Section Heading Container------------- */
-    <div className="space-y-1">
+    <div className="space-y-1 text-center pb-16">
       {/* ----------------Section Subtitle----------------- */}
       {subtitle && (
         <h3 className="font-rubik font-medium uppercase text-pink-primary">
@@ -12,7 +12,7 @@ const SectionHeading = ({ subtitle, title, description }) => {
       {title && <h2 className="font-bold text-4xl">{title}</h2>}
       {/* ---------------Section Description--------------- */}
       {description && (
-        <p className="w-sm md:w-xl lg:w-2xl font-rubik text-sm text-gray-light text-center">
+        <p className="w-xs md:w-xl lg:w-xl font-rubik text-sm text-gray-light text-center mx-auto">
           {description}
         </p>
       )}

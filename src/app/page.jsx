@@ -1,11 +1,13 @@
 import Header from "@/components/Common/Header";
+import ProjectStats from "@/components/Pages/Home/ProjectStats";
 
 /* ------------------Home Page Component--------------- */
 export default function Home() {
   return (
     /* ------------------Main Container---------------- */
-    <main>
+    <main className="pb-16">
       <Header></Header>
+      <ProjectStats></ProjectStats>
     </main>
   );
 }

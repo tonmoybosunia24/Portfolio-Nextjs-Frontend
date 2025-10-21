@@ -12,6 +12,9 @@
   .section {
     @apply px-5 md:px-10 lg:px-20 lg:max-w-screen-2xl mx-auto;
   }
+  .sectionPadding {
+    @apply pt-16;
+  }
   /* ----------------Font Utilities-------------------- */
   .font-rajdhani {
     font-family: var(--font-rajdhani);
