@@ -1,5 +1,7 @@
 import Header from "@/components/Common/Header";
+import Achievements from "@/components/Pages/Home/Achievements";
 import ProjectStats from "@/components/Pages/Home/ProjectStats";
+import Skills from "@/components/Pages/Home/Skills";
 
 /* ------------------Home Page Component--------------- */
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
     <main className="pb-16">
       <Header></Header>
       <ProjectStats></ProjectStats>
+      <Achievements></Achievements>
+      <Skills></Skills>
     </main>
   );
 }
