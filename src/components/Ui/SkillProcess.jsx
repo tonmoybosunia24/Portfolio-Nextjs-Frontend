@@ -20,7 +20,7 @@ const SkillProcess = ({ skill, value }) => {
       </div>
 
       {/* --------------------Progress-Bar------------------ */}
-      <div className="w-full h-2 flex items-center bg-bg-dark rounded-full" ref={ref}>
+      <div className="w-full h-1.5 bg-bg-white-overlay rounded-full" ref={ref}>
         <motion.div
           style={{ width: "0%" }}
           animate={{
