@@ -1,7 +1,7 @@
 import Header from "@/components/Common/Header";
 import Achievements from "@/components/Pages/Home/Achievements";
 import ProjectStats from "@/components/Pages/Home/ProjectStats";
-import Skills from "@/components/Pages/Home/Skills";
+import TechStack from "@/components/Pages/Home/TechStack";
 
 /* ------------------Home Page Component--------------- */
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Header></Header>
       <ProjectStats></ProjectStats>
       <Achievements></Achievements>
-      <Skills></Skills>
+      <TechStack></TechStack>
     </main>
   );
 }

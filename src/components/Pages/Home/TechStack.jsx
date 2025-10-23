@@ -4,7 +4,7 @@ import SkillProcess from "@/components/Ui/SkillProcess";
 import MotionSection from '@/components/Common/MotionSection';
 import SectionHeading from '@/components/Ui/SectionHeading';
 
-const Skills = () => {
+const TechStack = () => {
   return (
     /* ----------------------Skills Section------------------- */
     <section className="section sectionPadding">
@@ -28,7 +28,6 @@ const Skills = () => {
             <SkillProcess skill='Tailwind' value={90}></SkillProcess>
             <SkillProcess skill='Javascript (ES6+)' value={70}></SkillProcess>
             <SkillProcess skill='React.Js' value={80}></SkillProcess>
-            {/* <SkillProcess skill='Next.Js' value={90}></SkillProcess> */}
           </div>
         </MotionSection>
 
@@ -41,11 +40,10 @@ const Skills = () => {
           </div>
           {/* -----------------Skills Container---------------- */}
           <div className='space-y-2'>
+            <SkillProcess skill='Next.Js' value={90}></SkillProcess>
             <SkillProcess skill='Node.Js' value={40}></SkillProcess>
             <SkillProcess skill='Expresss.Js' value={70}></SkillProcess>
             <SkillProcess skill='MongoDB' value={65}></SkillProcess>
-            <SkillProcess skill='Firebase' value={80}></SkillProcess>
-            {/* <SkillProcess skill='JWT/AUTH' value={60}></SkillProcess> */}
           </div>
         </MotionSection>
 
@@ -55,4 +53,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default TechStack;
