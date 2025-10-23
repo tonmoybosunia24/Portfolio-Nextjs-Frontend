@@ -30,24 +30,30 @@ const EducationExperience = () => {
 
       {/* ---------------Section Container------------------ */}
       <div className="space-y-5">
+
         {/* ----------------Education Heading--------------- */}
         <div className="flex items-center gap-5">
           <h3 className="font-bold text-3xl">Education</h3>
           <Image className="h-1.5" src={line} alt="Line"></Image>
         </div>
+
         {/* ----------------Education Contain--------------- */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
           {educations.map((education) => (
-            <MotionSection key={education?.id} className="bg-bg-dark rounded-lg space-y-2 p-5">
+            <MotionSection key={education?.id} className="bg-bg-dark rounded-xl space-y-2 p-5">
+              {/* --------------Degree & Year---------------- */}
               <div className="flex justify-between items-center gap-5">
                 <h2 className="font-bold text-base md:text-base lg:text-xl">{education?.degree}</h2>
                 <h4 className="font-bold text-sm md:text-sm lg:text-lg">{education?.year}</h4>
               </div>
+              {/* ---------------Institution----------------- */}
               <p className="font-bold text-base md:text-base lg:text-xl">{education?.institution}</p>
+              {/* ---------------Description----------------- */}
               <p className="font-rubik text-gray-light text-sm">{education?.description}</p>
             </MotionSection>
           ))}
         </div>
+
       </div>
 
     </section>

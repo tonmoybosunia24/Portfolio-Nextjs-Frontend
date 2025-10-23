@@ -1,3 +1,4 @@
+import ContactUs from "@/components/Common/ContactUs";
 import Header from "@/components/Common/Header";
 import Achievements from "@/components/Pages/Home/Achievements";
 import EducationExperience from "@/components/Pages/Home/EducationExperience";
@@ -14,6 +15,7 @@ export default function Home() {
       <Achievements></Achievements>
       <TechStack></TechStack>
       <EducationExperience></EducationExperience>
+      <ContactUs></ContactUs>
     </main>
   );
 }
