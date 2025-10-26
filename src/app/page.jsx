@@ -1,4 +1,5 @@
 import ContactUs from "@/components/Common/ContactUs";
+import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
 import Achievements from "@/components/Pages/Home/Achievements";
 import EducationExperience from "@/components/Pages/Home/EducationExperience";
@@ -9,13 +10,14 @@ import TechStack from "@/components/Pages/Home/TechStack";
 export default function Home() {
   return (
     /* ------------------Main Container---------------- */
-    <main className="pb-16">
+    <main>
       <Header></Header>
       <ProjectStats></ProjectStats>
       <Achievements></Achievements>
       <TechStack></TechStack>
       <EducationExperience></EducationExperience>
       <ContactUs></ContactUs>
+      <Footer></Footer>
     </main>
   );
 }
