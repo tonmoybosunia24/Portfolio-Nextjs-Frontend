@@ -3,6 +3,7 @@ import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
 import Achievements from "@/components/Pages/Home/Achievements";
 import EducationExperience from "@/components/Pages/Home/EducationExperience";
+import Projects from "@/components/Pages/Home/Projects";
 import ProjectStats from "@/components/Pages/Home/ProjectStats";
 import TechStack from "@/components/Pages/Home/TechStack";
 import Testimonials from "@/components/Pages/Home/Testimonials";
@@ -17,6 +18,7 @@ export default function Home() {
       <Achievements></Achievements>
       <TechStack></TechStack>
       <EducationExperience></EducationExperience>
+      <Projects></Projects>
       <Testimonials></Testimonials>
       <ContactUs></ContactUs>
       <Footer></Footer>
