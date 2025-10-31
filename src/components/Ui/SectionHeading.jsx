@@ -3,7 +3,7 @@ import MotionSection from "../Common/MotionSection";
 const SectionHeading = ({ subtitle, title, description }) => {
   return (
     /* ---------------Section Heading Container------------- */
-    <MotionSection className="space-y-1 text-center pb-16">
+    <MotionSection className={`space-y-1 text-center pb-16`}>
       {/* ----------------Section Subtitle----------------- */}
       {subtitle && (
         <h3 className="font-rubik font-medium uppercase text-pink-primary">

@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
 
       {/* -----------------Footer Bottom---------------- */}
-      <MotionSection
+      <div
         className="section flex flex-col md:flex-col lg:flex-row justify-between items-center gap-2 border-t border-bg-white-overlay py-5"
       >
         <p className="font-rubik text-gray-light text-sm"><span className="text-white">©Tonmoy</span> <span>{currentYear}</span> | All Rights Reserved</p>
@@ -94,7 +94,7 @@ const Footer = () => {
           <li><UnderlineAnimation className="text-sm">Privacy Policy</UnderlineAnimation></li>
           <li><UnderlineAnimation className="text-sm">Contact Us</UnderlineAnimation></li>
         </ul>
-      </MotionSection>
+      </div>
 
     </footer>
   );

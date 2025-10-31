@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Rahim Uddin",
+    "designation": "Software Engineer",
+    "testimonial": "I am truly impressed by the quality of this portfolio. The layout is intuitive, and each project is thoroughly documented. It clearly reflects a strong understanding of modern web development practices.",
+    "rating": 5,
+    "image": "https://i.ibb.co.com/ynWL0Cyt/Testimonail-3.jpg"
+  },
+  {
+    "name": "Tanvir Hasan",
+    "designation": "Project Manager",
+    "testimonial": "The portfolio demonstrates professionalism and attention to detail. Its responsive design works flawlessly across devices, and the project showcases are both informative and visually appealing.",
+    "rating": 5,
+    "image": "https://i.ibb.co.com/mF1B2yn7/Testimonail-4.jpg"
+  },
+  {
+    "name": "Mahmudul Hasan",
+    "designation": "Backend Developer",
+    "testimonial": "This portfolio highlights backend skills exceptionally well. The integration of APIs and database management is seamless, and the overall design is modern and user-friendly.",
+    "rating": 5,
+    "image": "https://i.ibb.co.com/ynWL0Cyt/Testimonail-3.jpg"
+  },
+  {
+    "name": "Farhan Islam",
+    "designation": "Frontend Developer",
+    "testimonial": "The design is clean and elegant, effectively showcasing creativity in frontend development. Interactive elements and smooth transitions make the user experience enjoyable.",
+    "rating": 4,
+    "image": "https://i.ibb.co.com/ynWL0Cyt/Testimonail-3.jpg"
+  },
+  {
+    "name": "Shamim Hossain",
+    "designation": "UI/UX Designer",
+    "testimonial": "Excellent UI/UX throughout the portfolio. The structure is logical, navigation is simple, and there is great attention to detail in every section.",
+    "rating": 5,
+    "image": "https://i.ibb.co.com/mF1B2yn7/Testimonail-4.jpg"
+  }
+]

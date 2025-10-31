@@ -5,6 +5,7 @@ import Achievements from "@/components/Pages/Home/Achievements";
 import EducationExperience from "@/components/Pages/Home/EducationExperience";
 import ProjectStats from "@/components/Pages/Home/ProjectStats";
 import TechStack from "@/components/Pages/Home/TechStack";
+import Testimonials from "@/components/Pages/Home/Testimonials";
 
 /* ------------------Home Page Component--------------- */
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Achievements></Achievements>
       <TechStack></TechStack>
       <EducationExperience></EducationExperience>
+      <Testimonials></Testimonials>
       <ContactUs></ContactUs>
       <Footer></Footer>
     </main>
