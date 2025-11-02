@@ -27,7 +27,7 @@ const Achievements = () => {
         <div className="grid grid-cols-2 gap-5 flex-5/9 text-center">
           {/* ----------------Complete Project-------------- */}
           <MotionSection className="flex flex-col justify-center items-center bg-bg-dark text-center rounded-xl py-10">
-            <h3 className="font-bold text-4xl md:text-5xl lg:text-5xl"><Count start={100} end={10}></Count> +</h3>
+            <h3 className="font-bold text-4xl md:text-5xl lg:text-5xl"><Count start={99} end={10}></Count> +</h3>
             <p className="font-rubik text-xs md:text-sm lg:text-sm text-gray-medium">Our Project Complete</p>
           </MotionSection>
           {/* ----------------Natural Products-------------- */}
