@@ -2,6 +2,7 @@ import ContactUs from "@/components/Common/ContactUs";
 import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
 import Achievements from "@/components/Pages/Home/Achievements";
+import Blogs from "@/components/Pages/Home/Blogs";
 import EducationExperience from "@/components/Pages/Home/EducationExperience";
 import MarqueeSkills from "@/components/Pages/Home/MarqueeSkills";
 import Projects from "@/components/Pages/Home/Projects";
@@ -23,6 +24,7 @@ export default function Home() {
       <Projects></Projects>
       <Testimonials></Testimonials>
       <ContactUs></ContactUs>
+      <Blogs></Blogs>
       <Footer></Footer>
     </main>
   );
