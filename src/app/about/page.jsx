@@ -1,7 +1,9 @@
+import PageHeader from "@/components/Common/PageHeader";
+
 const Page = () => {
   return (
     <div>
-      <h2>This Is The About Page</h2>
+      <PageHeader title='About Me' breadcrumb='About Me'></PageHeader>
     </div>
   );
 };
