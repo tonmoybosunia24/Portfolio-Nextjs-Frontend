@@ -15,7 +15,7 @@ const Achievements = () => {
         {/* ------------Achivemnets Section Left------------ */}
         <MotionSection style={{ background: "linear-gradient(120deg, #161415 0%, #2b1720 30%, #411727 65%, #6F0D2A 100%)" }} className="flex-4/9 rounded-xl p-10 md:p-10 lg:p-12 space-y-5">
           <div className="flex flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-0 md:gap-5 lg:gap-5 font-bold">
-            <h3 className="text-9xl text-pink-primary"><Count start={100} end={2}></Count></h3>
+            <h3 className="text-9xl text-pink-primary"><Count start={99} end={2}></Count></h3>
             <h3 className="text-5xl">Years Of <br /> Experience</h3>
           </div>
           <p className="font-rubik text-sm">

@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Starter",
+    "price": 49,
+    "features": [
+      "1 Static Page",
+      "Responsive Design",
+      "Basic Contact Form",
+      "Delivery in 2 days",
+      "Email Support"
+    ]
+  },
+  {
+    "title": "Basic",
+    "price": 149,
+    "features": [
+      "Up to 5 Pages",
+      "Responsive Design",
+      "Contact & Feedback Forms",
+      "Basic SEO Setup",
+      "Delivery in 5 days"
+    ]
+  },
+  {
+    "title": "Premium",
+    "price": 299,
+    "features": [
+      "Unlimited Pages",
+      "Advanced Responsive Design",
+      "Custom Animations",
+      "Blog Integration",
+      "Priority Support"
+    ]
+  }
+]

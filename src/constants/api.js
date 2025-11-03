@@ -7,3 +7,5 @@ export const PROJECTS_API = `${API_URL}/api/projects`;
 export const TESTIMONIALS_API = `${API_URL}/api/testimonials`;
 /* ---------------Blogs-Api--------------- */
 export const BLOGS_API = `${API_URL}/api/blogs`;
+/* -------------Price-Plan-Api------------- */
+export const PRICE_PLAN_API = `${API_URL}/api/pricePlan`;
