@@ -1,6 +1,6 @@
 import { PROJECTS_API } from "@/constants/api";
 
-export default async function () {
+export default async function getAllProjects() {
   try {
     /* -----------------Get Projects Data---------------- */
     const result = await fetch(PROJECTS_API);

@@ -1,6 +1,6 @@
 import { PRICE_PLAN_API } from "@/constants/api";
 
-export default async function () {
+export default async function getAllPricePlan() {
   try {
     /* ----------------Get Price-Plan Data--------------- */
     const result = await fetch(PRICE_PLAN_API);

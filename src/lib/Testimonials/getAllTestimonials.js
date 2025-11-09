@@ -1,6 +1,6 @@
 import { TESTIMONIALS_API } from "@/constants/api";
 
-export default async function () {
+export default async function getAllTestimonials() {
   try {
     /* --------------Get Testimonials Data-------------- */
     const result = await fetch(`${TESTIMONIALS_API}`);
