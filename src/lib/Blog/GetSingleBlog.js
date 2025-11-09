@@ -10,6 +10,6 @@ export default async function getSingleBlog(id) {
     return result.json();
   } catch (error) {
     /* ------------------Error Handle------------------- */
-    return { error: error.message };
+    return [];
   }
 }

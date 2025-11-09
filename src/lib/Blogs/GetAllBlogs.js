@@ -12,6 +12,6 @@ export default async function getAllBlogs(limit) {
     return result.json();
   } catch (error) {
     /* ------------------Error Handle------------------- */
-    return { error: error.message };
+    return [];
   }
 }
