@@ -25,7 +25,7 @@ const BlogCard = ({ blogs }) => {
           {/* -------------Content-Container------------- */}
           <div className="space-y-2 p-5">
             <h2 className="font-rubik text-2xl hover:text-pink-primary">{blog?.title}</h2>
-            <UnderlineAnimation><Link className="flex items-center" href="">READ MORE <MdKeyboardArrowRight className="text-xl" /></Link></UnderlineAnimation>
+            <UnderlineAnimation><Link className="flex items-center" href={`/blogs/${blog?._id}`}>READ MORE <MdKeyboardArrowRight className="text-xl" /></Link></UnderlineAnimation>
           </div>
         </MotionSection>
       ))}

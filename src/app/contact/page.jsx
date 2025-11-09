@@ -1,10 +1,16 @@
+import ContactUs from "@/components/Common/ContactUs";
+import Footer from "@/components/Common/Footer";
 import PageHeader from "@/components/Common/PageHeader";
+import ContactDetails from "@/components/Pages/Contact/ContactDetails";
 
 const page = () => {
   return (
-    <div>
+    <main>
       <PageHeader title='Contact' breadcrumb='Contact'></PageHeader>
-    </div>
+      <ContactDetails></ContactDetails>
+      <ContactUs></ContactUs>
+      <Footer></Footer>
+    </main>
   );
 };
 

@@ -10,7 +10,7 @@
 @layer utilities {
   /* -----------Responsive Container Padding----------- */
   .section {
-    @apply px-5 md:px-10 lg:px-20 2xl:px-40 lg:max-w-screen-2xl 2xl:max-w-screen-2xl mx-auto;
+    @apply container mx-auto px-5 md:px-10 lg:px-16 xl:px-20 2xl:px-32;
   }
   .sectionPadding {
     @apply mt-16;
