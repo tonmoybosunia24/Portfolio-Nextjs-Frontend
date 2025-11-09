@@ -1,5 +1,6 @@
 import getCollection from "@/lib/MongoDb/getCollection";
 import { ObjectId } from "mongodb";
+import { NextResponse } from "next/server";
 
 /* -------------Get Single-Blogs API Route Handler------------- */
 export async function GET(req, { params }) {
@@ -12,12 +13,12 @@ export async function GET(req, { params }) {
     const blog = await blogs.findOne({ _id: new ObjectId(singleBlog) });
     /* ---------------Check If Blog Exists--------------------- */
     if (!blog) {
-      return Response.json({ error: "Blog not found" }, { status: 404 });
+      return NextResponse.json({ error: "Blog not found" }, { status: 404 });
     }
     /* -------------------Send Data In Json-------------------- */
-    return Response.json(blog);
+    return NextResponse.json(blog);
   } catch (error) {
     /* -------------Error Handle With Status-------------- */
-    return Response.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }

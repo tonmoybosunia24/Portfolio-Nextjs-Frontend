@@ -1,4 +1,5 @@
 import getCollection from "@/lib/MongoDb/getCollection";
+import { NextResponse } from "next/server";
 
 /* --------------Get Blogs API Route Handler-------------- */
 export async function GET(req) {
@@ -14,9 +15,9 @@ export async function GET(req) {
       blogs = blogs.slice(0, limit);
     }
     /* -----------------Send Data In Json----------------- */
-    return Response.json(blogs);
+    return NextResponse.json(blogs);
   } catch (error) {
     /* -------------Error Handle With Status-------------- */
-    return Response.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }

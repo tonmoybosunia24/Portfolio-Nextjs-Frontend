@@ -1,4 +1,5 @@
 import getCollection from "@/lib/MongoDb/getCollection";
+import { NextResponse } from "next/server";
 
 /* ------------Get Price-Plan API Route Handler----------- */
 export async function GET(req) {
@@ -8,9 +9,9 @@ export async function GET(req) {
     /* -----Find ALl Price-Plan And Convert To Array------ */
     const pricePlan = await pricePlanCollection.find().toArray();
     /* -----------------Send Data In Json----------------- */
-    return Response.json(pricePlan);
+    return NextResponse.json(pricePlan);
   } catch (error) {
     /* -------------Error Handle With Status-------------- */
-    return Response.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }
