@@ -10,7 +10,7 @@
       "https://i.ibb.co.com/qN3XZhY/4.jpg"
     ],
     "technologies": ["Next.js", "TypeScript", "MongoDB", "Stripe", "Tailwind CSS", "Redux"],
-    "category": "Full Stack",
+    "category": "Full Stack Web Application",
     "features": [
       "Secure Payment Integration",
       "Real-time Inventory Management",
@@ -37,7 +37,7 @@
       "https://i.ibb.co.com/NxWgK8w/portfolio-contact.jpg"
     ],
     "technologies": ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript", "MDX"],
-    "category": "Frontend",
+    "category": "Frontend Web Application",
     "features": [
       "Dark Mode Toggle",
       "Smooth Animations",
