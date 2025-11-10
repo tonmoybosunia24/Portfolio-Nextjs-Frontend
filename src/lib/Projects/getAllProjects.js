@@ -10,6 +10,7 @@ export default async function getAllProjects() {
     return result.json();
   } catch (error) {
     /* ------------------Error Handle-------------------- */
+    console.error("Error Fetching Projects Data:", error.message);
     return [];
   }
 }

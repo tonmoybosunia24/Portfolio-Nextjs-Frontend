@@ -12,6 +12,7 @@ export default async function getAllBlogs(limit) {
     return result.json();
   } catch (error) {
     /* ------------------Error Handle------------------- */
+    console.error("Error Fetching Blogs Data:", error.message);
     return [];
   }
 }

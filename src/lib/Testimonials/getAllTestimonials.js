@@ -10,6 +10,7 @@ export default async function getAllTestimonials() {
     return result.json();
   } catch (error) {
     /* ------------------Error Handle------------------- */
+    console.error("Error Fetching Testimonials Data:", error.message);
     return [];
   }
 }

@@ -10,6 +10,7 @@ export default async function getAllPricePlan() {
     return result.json();
   } catch (error) {
     /* ------------------Error Handle-------------------- */
+    console.error("Error Fetching Price Plan Data:", error.message);
     return [];
   }
 }
