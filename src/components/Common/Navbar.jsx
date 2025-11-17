@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     /* ---------------------Navber Section--------------------- */
-    <nav className={`${scrolled ? 'fixed w-full top-0  bg-bg-dark shadow-md duration-300 transition-all py-3 z-50' : 'bg-transparent py-3'}`}>
+    <nav className={`w-full ${scrolled ? 'fixed w-full top-0  bg-bg-dark shadow-md duration-300 transition-all py-3 z-50' : '!w-full bg-transparent py-3'}`}>
       {/* ------------------Navbar-Container------------------ */}
       <div className="section flex justify-between">
         {/* --------------------Logo Section------------------ */}

@@ -1,6 +1,7 @@
 import { Rajdhani, Rubik } from "next/font/google";
 import "./globals.css";
 import AppProvider from "@/provider/AppProvider";
+import Navbar from "@/components/Common/Navbar";
 
 /* ------------------Font Configuration: Rajdhani--------------- */
 const rajdhani = Rajdhani({
@@ -28,7 +29,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${rajdhani.variable} ${rubik.variable} antialiased`}>
         {/* -----------------App Provider Wrapper------------- */}
-        <AppProvider>{children}</AppProvider>
+        <AppProvider>
+          {/* <div className='border'><Navbar></Navbar></div> */}
+          {children}
+        </AppProvider>
       </body>
     </html>
   );

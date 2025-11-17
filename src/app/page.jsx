@@ -1,6 +1,7 @@
 import ContactUs from "@/components/Common/ContactUs";
 import Footer from "@/components/Common/Footer";
 import Header from "@/components/Common/Header";
+import Hero from "@/components/Common/Hero";
 import Achievements from "@/components/Pages/Home/Achievements";
 import Blogs from "@/components/Pages/Home/Blogs";
 import EducationExperience from "@/components/Pages/Home/EducationExperience";
@@ -15,7 +16,8 @@ export default function Home() {
   return (
     /* ------------------Main Container---------------- */
     <main>
-      <Header></Header>
+      {/* <Header></Header> */}
+      <Hero></Hero>
       <ProjectStats></ProjectStats>
       <Achievements></Achievements>
       <MarqueeSkills></MarqueeSkills>
