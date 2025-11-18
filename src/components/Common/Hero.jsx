@@ -1,4 +1,4 @@
-import profile from '../../../public/Images/ProfileImage/ProfileImage.png'
+import profile from '../../../public/Images/ProfileImage/ProfileImage4.png'
 import bannerBackground from '../../../public/Images/Banner/BannerBackground.jpg'
 import Image from 'next/image';
 import Navbar from './Navbar';
@@ -9,15 +9,15 @@ import AnimatedHeading from '../Ui/AnimatedHeading';
 const Hero = () => {
   return (
     <section
-      className=" w-full min-h-screen bg-cover bg-center bg-no-repeat relative"
+      className=" w-full h-screen md:h-auto lg:h-screen bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: `url(${bannerBackground.src})` }}
     >
 
       <div className='absolute inset-x-0 w-full top-0'><Navbar></Navbar></div>
 
-      <div className='section grid grid-cols-1 lg:grid-cols-7 items-center justify-between gap-10 xl:gap-56 md:gap-10 min-h-screen pt-30 lg:pt-0'>
+      <div className='section grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 items-center justify-between gap-0 lg:gap-10 h-screen md:h-auto lg:h-screen pt-14 lg:pt-0'>
         {/* --------------Header Left Section------------ */}
-        <div className='lg:col-span-3 space-y-2'>
+        <div className='md:col-span-6 lg:col-span-6 space-y-2'>
           <h2>
             <span className='font-bold text-2xl'>Hello</span> <br />
             <span className='font-bold text-5xl md:text-3xl lg:text-7xl'>i’m Tonmoy</span> <br />
@@ -30,13 +30,15 @@ const Hero = () => {
           <Button>View Portfolio</Button>
         </div>
         {/* --------------Header Right Section----------- */}
-        <div className='relative lg:col-span-4 self-end flex flex-col justify-center items-center'>
+        <div className='relative md:col-span-6 lg:col-span-6 self-end flex flex-col justify-center items-center'>
           {/* ---------------Header Right Upper Text---------------- */}
           <AnimatedHeading className={'absolute top-2/5 font-bold text-4xl lg:text-6xl z-0'}>
             WEB DEVELOPER
           </AnimatedHeading>
           <Image
-            className='object-contain z-30'
+            width={400}
+            height={550}
+            className='object-contain z-30 max-w-3xs lg:max-w-sm xl:max-w-md '
             src={profile}
             alt='Profile Image'>
           </Image>
