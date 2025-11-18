@@ -16,8 +16,8 @@ export default function Home() {
   return (
     /* ------------------Main Container---------------- */
     <main>
-      {/* <Header></Header> */}
-      <Hero></Hero>
+      <Header></Header>
+      {/* <Hero></Hero> */}
       <ProjectStats></ProjectStats>
       <Achievements></Achievements>
       <MarqueeSkills></MarqueeSkills>

@@ -11,6 +11,8 @@ const Header = () => {
     /* -------------------Header Section------------------ */
     <header className='w-full max-h-screen flex flex-col gap-14 lg:gap-5 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bannerBackground.src})` }}>
 
+      <div><Navbar></Navbar></div>
+
       {/* -----------Header Section Container------------ */}
       <div className='section flex flex-col md:flex-row lg:flex-row justify-between items-center gap-10 overflow-hidden'>
 
