@@ -38,7 +38,7 @@ const Hero = () => {
           <Image
             width={400}
             height={550}
-            className='object-contain z-30 max-w-3xs lg:max-w-sm xl:max-w-md '
+            className='object-contain z-30 max-w-3xs lg:max-w-sm xl:max-w-xl 2xl:max-w-2xl '
             src={profile}
             alt='Profile Image'>
           </Image>
