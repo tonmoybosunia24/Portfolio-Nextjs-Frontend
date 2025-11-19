@@ -6,6 +6,7 @@ export async function GET(req) {
   try {
     /* --------------------Get The Limit------------------ */
     const limit = parseInt(req.nextUrl.searchParams.get("limit"));
+    console.log("Limit:", limit);
     /* --------------Get Blogs From DataBase-------------- */
     const blogsCollection = await getCollection("blogs");
     /* --------Find ALl Blogs And Convert To Array-------- */

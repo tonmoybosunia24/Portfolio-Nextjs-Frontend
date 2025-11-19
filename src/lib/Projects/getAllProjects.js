@@ -1,9 +1,12 @@
 import { PROJECTS_API } from "@/constants/api";
 
-export default async function getAllProjects() {
+export default async function getAllProjects(limit) {
   try {
+    // const url = limit ? `${PROJECTS_API}?limit=${limit};
     /* -----------------Get Projects Data---------------- */
-    const result = await fetch(PROJECTS_API);
+    const result = await fetch(`${PROJECTS_API}?limit=${limit}`, {
+      cache: "no-store",
+    });
     /* -------------Check API Response------------------- */
     if (!result.ok) throw new Error("Failed To Fetch Projects Data");
     /* ------------Return Testimonials Data-------------- */
