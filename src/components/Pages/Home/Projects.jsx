@@ -5,7 +5,7 @@ import getAllProjects from "@/lib/Projects/getAllProjects";
 const Projects = async () => {
 
   const projects = await getAllProjects(1);
-  console.log(projects);
+  // console.log(projects);
 
   return (
     <section className="section sectionPadding">
