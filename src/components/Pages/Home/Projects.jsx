@@ -4,7 +4,7 @@ import getAllProjects from "@/lib/Projects/getAllProjects";
 
 const Projects = async () => {
 
-  const projects = await getAllProjects();
+  const projects = await getAllProjects(1);
   console.log(projects);
 
   return (
