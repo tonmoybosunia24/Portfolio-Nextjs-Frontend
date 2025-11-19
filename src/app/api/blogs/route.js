@@ -6,17 +6,16 @@ export async function GET(req) {
   try {
     /* --------------------Get The Limit------------------ */
     const limit = parseInt(req.nextUrl.searchParams.get("limit"));
-    console.log("Limit:", limit);
     /* --------------Get Blogs From DataBase-------------- */
     const blogsCollection = await getCollection("blogs");
-    /* --------Find ALl Blogs And Convert To Array-------- */
-    let blogs = await blogsCollection.find().toArray();
-    /* ----------------Check IF Have Limit---------------- */
+    /* ------Check Limit And Convert Data To Array-------- */
     if (limit) {
-      blogs = blogs.slice(0, limit);
+      const blogs = await blogsCollection.find().limit(limit).toArray();
+      return NextResponse.json(blogs);
+    } else {
+      const blogs = await blogsCollection.find().toArray();
+      return NextResponse.json(blogs);
     }
-    /* -----------------Send Data In Json----------------- */
-    return NextResponse.json(blogs);
   } catch (error) {
     /* -------------Error Handle With Status-------------- */
     return NextResponse.json({ error: error.message }, { status: 500 });
