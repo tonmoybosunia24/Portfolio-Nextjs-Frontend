@@ -2,9 +2,9 @@ import { PROJECTS_API } from "@/constants/api";
 
 export default async function getAllProjects(limit) {
   try {
-    // const url = limit ? `${PROJECTS_API}?limit=${limit};
+    const url = limit ? `${PROJECTS_API}?limit=${limit} ` : PROJECTS_API;
     /* -----------------Get Projects Data---------------- */
-    const result = await fetch(`${PROJECTS_API}?limit=${limit}`, {
+    const result = await fetch(url, {
       cache: "no-store",
     });
     /* -------------Check API Response------------------- */

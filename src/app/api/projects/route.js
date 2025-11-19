@@ -10,11 +10,12 @@ export async function GET(req) {
     const projectsCollection = await getCollection("projects");
     /* ------Find ALl Projects And Convert To Array------- */
     if (limit) {
-      const Projects = await projectsCollection.find().limit(limit).toArray();
-      return NextResponse.json(Projects);
+      const projects = await projectsCollection.find().limit(limit).toArray();
+      return NextResponse.json(projects);
     }
     else{
-      return NextResponse.json('Limit Not Fountd')
+      const projects = await projectsCollection.find().toArray();
+      return NextResponse.json(projects);
     }
     // const projects = await projectsCollection.find().toArray();
     /* -----------------Send Data In Json----------------- */
